@@ -1,0 +1,97 @@
+body {
+    background-color: #1f2e17;
+    color: white;
+}
+
+.main title {
+    /*importer une typo*/
+    font-family: "moderne", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+;
+@font-face {
+    font-family: "moderne";
+    src: url('css/UpperEastSide.ttf');
+}
+
+h1 {
+    font-family: moderne, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*Menu Principal*/
+
+.menuprincipal {
+    border: dotted;
+}
+
+.menuprincipal ul {
+    color: whitesmoke;
+    padding: 1px;
+}
+
+.menuprincipal ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menuprincipal ul li a {
+    color: white;
+}
+
+.menuprincipal ul li a:link {
+    background-color: rgba(255, 105, 180, 0.3);
+    color: rgba(245, 222, 179, 0.5);
+}
+
+.menuprincipal ul li a:visited {
+    color: red;
+}
+
+.menuprincipal ul li a:hover {
+    color: hotpink;
+    background-color: rgba(245, 222, 179, 0.5);
+}
+
+
+/*CONTENU*/
+
+.contenu {
+    width: 100%;
+    min-height: 320px;
+    display: table;
+    border-spacing: 10px;
+}
+
+
+/*Titre rubrique et menu*/
+
+.menusecondaire {
+    display: table-cell;
+}
+
+.menusecondaire a {
+    color: white;
+}
+
+
+/*Corps de page*/
+
+
+/*Aside*/
+
+aside {
+    width: 180px;
+    border: 1px solid black;
+    padding-left: 10px;
+    height: auto;
+    display: table-cell;
+}
+
+
+/*Footer*/
+
+footer p {
+    text-align: center;
+    width: 100%;
+}
