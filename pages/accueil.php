@@ -11,25 +11,22 @@
     <div id="global">
         <!-- ENTETE -->
         <header>
-            <p><?=$page?></p>
-        </header>
+            <p>WEB-portfolio kieran labarrere-<?=$page?></p>
         <!-- MENUS DE NAVIGATION -->
-        <?php include "menu.php" ?>
+        <?php include "files/menu.php" ?>
+        </header>
         <div class="contenu">
             <nav class="menusecondaire">
-                <Hn>Sommaire</Hn>
+                <Hn>Portfolio</Hn>
                 <ul>
-                    <li><a href="#">Principes</a></li>
-                    <li><a href="#">Exemple</a></li>
+                <!--ICI une liste de liens des rubriques de la page-->
                 </ul>
             </nav>
             <!-- CONTENU PRINCIPAL -->
             <main>
-                <h1><?=$page?></h1>
-                <h2>Site portfolio</h2>
-                <p>En cours d'apprentissage au CF2M, à défaut de vitrine complète, ce site consiste en une présentation d'établi, une mise en valeur de boite à outil.</p>
-                <p>Dans la page de lien, sont présentés les matières et techniques étudiées, rangées par thématiques, triées par date de cours et alimentées des différents support de cours fournis : videos, pdf, repertoire Git-hub, etc</p>
-                <p>La page de galerie, dans le cadre d'un portfolio standart, présenterait des illustrations de différentes productions, de la boite à outil citée ci-dessus, je rangerai les différents modèles/modules de galeries que j'ambitionne d'utiliser pae la suite. Ce n'est pas  le contenu, que j'y présenterai mais plutot le contenant.</p>
+                <p>En cours d'apprentissage au CF2M, à défaut de vitrine complète, ce site consiste en une présentation d'établi, une mise en valeur de boite à outils.</p>
+                <p>Dans la page de lien, sont présentées les support de cours, rangées par thématiques, triées par dates (videos, pdf, repertoire Git-hub, etc)</p>
+                <p>La page de galerie, dans le cadre d'un portfolio standart, présenterait des illustrations de mes différentes productions, ces productions étant plutôt maigres pour l'instant, je rangerai les différents modèles/modules de galeries que j'ambitionne d'utiliser par la suite. Ce n'est pas  le contenu, que j'y présenterai mais plutot le contenant.</p>
             </main>
             <!-- BARRE LATERALE -->
             <aside>
