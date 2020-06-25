@@ -28,7 +28,8 @@
             </nav>
             <!-- CONTENU PRINCIPAL -->
             <main>
-                <p>Dans la page de lien, sont présentées les support de cours, rangées par thématiques, triées par dates (videos, pdf, repertoire Git-hub, etc)</p>
+                <p>La page de galerie présenterait des screenshot de mes différentes anciennes productions, accompagnées d'un commentaire. Forme simple pour pouvoir tester différentes css<br>
+                Une div galerie, Une liste de lien, ds chaque lien, une vignette et un texte avec un display particulier pour le texte.</p>
             </main>
             <!-- BARRE LATERALE -->
             <aside>

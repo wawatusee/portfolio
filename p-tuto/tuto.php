@@ -28,7 +28,7 @@
             </nav>
             <!-- CONTENU PRINCIPAL -->
             <main>
-                <p>Dans la page de lien, sont présentées les support de cours, rangées par thématiques, triées par dates (videos, pdf, repertoire Git-hub, etc)</p>
+                <p>2 tutos sont demandés, dois-je placer chaque tuto dans un répertoire particulier? Je bloque pas pour l'instant, j'attend de voir les contraintes de chaque tuto selon son contenu.</p>
             </main>
             <!-- BARRE LATERALE -->
             <aside>

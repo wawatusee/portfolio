@@ -28,7 +28,7 @@
             </nav>
             <!-- CONTENU PRINCIPAL -->
             <main>
-                <p>Dans la page de lien, sont présentées les support de cours, rangées par thématiques, triées par dates (videos, pdf, repertoire Git-hub, etc)</p>
+                <p>Un formulaire de contact avec admin</p>
             </main>
             <!-- BARRE LATERALE -->
             <aside>

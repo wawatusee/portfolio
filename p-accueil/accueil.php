@@ -26,7 +26,7 @@
             <main>
                 <p>En cours d'apprentissage au CF2M, à défaut de vitrine complète, ce site consiste en une présentation d'établi, une mise en valeur de boite à outils.</p>
                 <p>Dans la page de lien, seront présentés les support de cours, rangées par thématiques, triées par dates (videos, pdf, repertoire Git-hub, etc)</p>
-                <p>La page de galerie, dans le cadre d'un portfolio standart, présenterait des illustrations de mes différentes productions, je rangerai les différents modèles/modules de galeries que j'ambitionne d'utiliser par la suite. Ce n'est pas  le contenu, que j'y présenterai mais plutot le contenant.</p>
+                <p>La page de galerie présenterait des screenshot de mes différentes anciennes productions, accompagnées d'un commentaire.</p>
             </main>
             <!-- BARRE LATERALE -->
             <aside>
