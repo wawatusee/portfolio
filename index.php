@@ -15,18 +15,18 @@ else {
 
     switch ($page) {
         case "liens":
-            include "pages/liens.php";
+            include "p-liens/liens.php";
             break;
         case "galerie":
-            include "pages/galerie.php";
+            include "p-galerie/galerie.php";
             break;
         case "tuto":
-            include "pages/tuto.php";
+            include "p-tuto/tuto.php";
             break;
         case "contact":
-            include "pages/contact.php";
+            include "p-contact/contact.php";
             break;
         default:
-            include "pages/accueil.php";
+            include "p-accueil/accueil.php";
     }
 }

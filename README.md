@@ -14,7 +14,7 @@ ou
  pour les pages  :
 * liens 
 * galerie  
-Isoler le menu secondaire en php il irait trouver un fichier qui lui dirait combien il y auraient de rubriques dans cette page et créerait les liens quçi composeraient le menu
+Personnaliser le menu secondaire en php pour chaque page principale, il irait trouver un fichier qui lui dirait combien il y auraient de rubriques dans cette page selon le contexte éditorial et créerait les liens qui composeraient le menu
 ### Front end :  
 * je rgrette mon choix, faudra trouver une alternative au "BIOS" 
 * Mais maintenant qu'on a le bios, descendre footer au bas de l'écran, soit en CSS, soit en JS
