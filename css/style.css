@@ -71,3 +71,14 @@
         text-align: center;
         width: 100%;
     }
+    /*Tutos*/
+    
+    code {
+        border: 1px solid white;
+        padding: 3px;
+        margin: 10px;
+    }
+    
+    canvas {
+        border: dotted 1px orange;
+    }
