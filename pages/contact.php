@@ -8,36 +8,33 @@
 </head>
 
 <body>
-    <div id="global">
-        <!-- ENTETE -->
-        <header>
-            <p>WEB-portfolio kieran labarrere-<?=$page?></p>
-        <!-- MENUS DE NAVIGATION -->
-        <?php include "files/menu.php" ?>
-        </header>
-        <div class="contenu">
-            <nav class="menusecondaire">
-                <Hn>Portfolio</Hn>
-                <ul>
-                <!--ICI une liste de liens des rubriques de la page-->
-                    <li>A créer une liste des sous rubriques de la page principale, par exemple pour la page contact, pour l'instant, je ne lui connais pas d'utilité, si elle estait vide, peut-être ne prendrait elle pas de place.<br>
-                Ne nous inquiétons pas pour l'instant de la largeur de cette section, au final son contenu ne devrait pas excéder la largeur d'un mot cliquable.<br>
-                Pour la version mobile peut-être un menu repliable à gauche, à voir.
-                    </li>
-                </ul>
-            </nav>
-            <!-- CONTENU PRINCIPAL -->
+<div class="grid-container">
+            <!-- HEADER -->
+            <header>
+                <?php include "files/header.php" ?>
+                <!-- MAIN NAV-->
+                <menu>
+                 <?php include "files/menu.php" ?>
+                </menu>
+            </header>
+            <!-- MAIN CONTENT -->
+            <div class="menuSecondaire">
+                <h3><?=$page?></h3>
+                <?php include "pages/menu-$page.php" ?>
+            </div>
             <main>
                 <p>Un formulaire de contact avec admin</p>
             </main>
-            <!-- BARRE LATERALE -->
+            <!-- ASIDE -->
             <aside>
                 <?php include "files/aside.php" ?>
             </aside>
-        </div>
-        <!-- PIED DE PAGE -->
-        <?php include "files/footer.php"?>
+            <!-- FOOTER -->
+            <footer>
+                 <?php include "files/footer.php"?>
+            </footer>
     </div>
+
 </body>
 
 </html>

@@ -12,18 +12,15 @@
             <!-- HEADER -->
             <header>
                 <?php include "files/header.php" ?>
-                
+                <!-- MAIN NAV-->
                 <menu>
                  <?php include "files/menu.php" ?>
                 </menu>
             </header>
-            <!-- MAIN NAV-->
-
-                <!-- MAIN CONTENT -->
+            <!-- MAIN CONTENT -->
             <div class="menuSecondaire">
-                <h3>Portfolio</h3>
-                <div>Rubrique1</div>
-                <div>Rubrique</div>
+                <h3><?=$page?></h3>
+                <?php include "pages/menu-$page.php" ?>
             </div>
             <main>
                 <p>En cours d'apprentissage au CF2M, à défaut de vitrine complète, ce site consiste en une présentation d'établi, une mise en valeur de boite à outils.</p>
@@ -32,15 +29,7 @@
             </main>
             <!-- ASIDE -->
             <aside>
-                <h2>News</h2>
-                <article>
-                    <h3>Titre</h3>
-                    <p>Contenu</p>
-                </article>
-                <article>
-                    <h3>Titre</h3>
-                    <p>Contenu</p>
-                </article>
+                <?php include "files/aside.php" ?>
             </aside>
             <!-- FOOTER -->
             <footer>
@@ -48,5 +37,4 @@
             </footer>
     </div>
 </body>
-
 </html>

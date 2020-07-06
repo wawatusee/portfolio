@@ -8,24 +8,20 @@
 </head>
 
 <body>
-    <div id="global">
-        <!-- ENTETE -->
-        <header>
-            <p>WEB-portfolio kieran labarrere-<?=$page?></p>
-        <!-- MENUS DE NAVIGATION -->
-        <?php include "files/menu.php" ?>
-        </header>
-        <div class="contenu">
-            <nav class="menusecondaire">
-                <Hn>Portfolio</Hn>
-                <ul>
-                <!--ICI une liste de liens des rubriques de la page-->
-                    <li>
-                        <a href="#tutoriel1">Tutoriel1-CANVAS</a>
-                    </li>
-                </ul>
-            </nav>
-            <!-- CONTENU PRINCIPAL -->
+<div class="grid-container">
+            <!-- HEADER -->
+            <header>
+                <?php include "files/header.php" ?>
+                <!-- MAIN NAV-->
+                <menu>
+                 <?php include "files/menu.php" ?>
+                </menu>
+            </header>
+            <!-- MAIN CONTENT -->
+            <div class="menuSecondaire">
+                <h3><?=$page?></h3>
+                <?php include "pages/menu-$page.php" ?>
+            </div>
             <main>
                 <p>2 tutos sont demandés, dois-je placer chaque tuto dans un répertoire particulier? Je bloque pas pour l'instant, j'attend de voir les contraintes de chaque tuto selon son contenu.</p>
                 <section>
@@ -69,13 +65,14 @@
                     </div>
                 </section>
             </main>
-            <!-- BARRE LATERALE -->
+            <!-- ASIDE -->
             <aside>
                 <?php include "files/aside.php" ?>
             </aside>
-        </div>
-        <!-- PIED DE PAGE -->
-        <?php include "files/footer.php"?>
+            <!-- FOOTER -->
+            <footer>
+                 <?php include "files/footer.php"?>
+            </footer>
     </div>
 </body>
 

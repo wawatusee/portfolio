@@ -8,41 +8,33 @@
 </head>
 
 <body>
-    <div id="global">
-        <!-- ENTETE -->
-        <header>
-            <p>WEB-portfolio kieran labarrere-<?=$page?></p>
-        <!-- MENUS DE NAVIGATION -->
-        <?php include "files/menu.php" ?>
-        </header>
-        <div class="contenu">
-            <nav class="menusecondaire">
-                <Hn>Portfolio</Hn>
-                <ul>
-                <!--ICI une liste de liens des rubriques de la page-->
-                </ul>
-            </nav>
-            <!-- CONTENU PRINCIPAL -->
+<div class="grid-container">
+            <!-- HEADER -->
+            <header>
+                <?php include "files/header.php" ?>
+                <!-- MAIN NAV-->
+                <menu>
+                 <?php include "files/menu.php" ?>
+                </menu>
+            </header>
+            <!-- MAIN CONTENT -->
+            <div class="menuSecondaire">
+                <h3><?=$page?></h3>
+                <?php include "pages/menu-$page.php" ?>
+            </div>
             <main>
-                <p>En cours d'apprentissage au CF2M, à défaut de vitrine complète, ce site consiste en une présentation d'établi, une mise en valeur de boite à outils.</p>
-                <p>Dans la page de lien, sont présentées les support de cours, rangées par thématiques, triées par dates (videos, pdf, repertoire Git-hub, etc)</p>
-                <p>La page de galerie, dans le cadre d'un portfolio standart, présenterait des illustrations de mes différentes productions, ces productions étant plutôt maigres pour l'instant, je rangerai les différents modèles/modules de galeries que j'ambitionne d'utiliser par la suite. Ce n'est pas  le contenu, que j'y présenterai mais plutot le contenant.</p>
+                <p>Liens vers les cours donnés, au CF2M depuis le début de l'année à la classe de WEB.</p>
+                <p>Rangées par matières et par cours.</p>
+                <p>Voici les support de cours, triées par dates (videos, pdf, repertoire Git-hub, etc)</p>
             </main>
-            <!-- BARRE LATERALE -->
+            <!-- ASIDE -->
             <aside>
-                <h2>News</h2>
-                <article>
-                    <h3>Titre</h3>
-                    <p>Contenu</p>
-                </article>
-                <article>
-                    <h3>Titre</h3>
-                    <p>Contenu</p>
-                </article>
+                <?php include "files/aside.php" ?>
             </aside>
-        </div>
-        <!-- PIED DE PAGE -->
-        <?php include "files/footer.php"?>
+            <!-- FOOTER -->
+            <footer>
+                 <?php include "files/footer.php"?>
+            </footer>
     </div>
 </body>
 
