@@ -1,3 +1,1 @@
-<footer>
-    <p>Copyright &copy; 2020 - Kieran-Labarrere</p>
-</footer>
+<p>Copyright &copy; 2020 - Kieran-Labarrere</p>

@@ -3,76 +3,75 @@
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    /*DISPLAY GRID*/
-    
-    .grid-container {
-        display: grid;
-        grid-template-columns: 2fr repeat(6);
-        grid-template-rows: auto auto 1fr auto;
-        grid-gap: 10px;
-    }
     /*HEADER*/
     
     header {
-        grid-column: 1/12;
-        grid-row: auto;
         background-color: #00009C;
-        color: whitesmoke;
+        color: whitesmoke
     }
-    /*MAIN MENU*/
+    /*Menu Principal*/
     
-    menu {
-        grid-column: 1/span 12;
-        text-align: center;
+    .menuprincipal {
+        border: none;
     }
     
-    menu a {
+    .menuprincipal ul li {
+        display: inline;
+        margin-right: 20px;
+    }
+    
+    .menuprincipal ul li a {
         color: white;
-        background-color: #00009C;
     }
     
-    menu a:hover {
+    .menuprincipal ul li a:hover {
         color: #00009C;
         background-color: #9C9A9C;
     }
-    /*CONTENT*/
+    /*CONTENU*/
     
-    main {
-        grid-column: 3/10;
-        border-bottom: solid;
-        border-top: solid;
+    .contenu {
+        width: 100%;
+        height: 600px;
+        min-height: 320px;
+        display: table;
+        border-spacing: 10px;
+        border: solid;
+        border-color: #00009C;
     }
     /*Titre rubrique et menu*/
     
-    .menuSecondaire {
-        grid: 3 2 4 3;
+    .menusecondaire {
+        display: table-cell;
         border-right: solid #00009C;
-        padding-right: 5px;
+        padding-right: 10px;
     }
     
     .menusecondaire a {
         color: white;
     }
-    /*ASIDE*/
+    /*Corps de page*/
+    /*Aside*/
     
     aside {
-        grid: 3 11 4 13;
+        width: 180px;
         border-left: solid #00009C;
         padding-left: 10px;
+        height: auto;
+        display: table-cell;
     }
-    /*FOOTER*/
+    /*Footer*/
     
     footer {
-        grid-column: 1/ span 11;
-        grid-row: 4/auto;
         background-color: #00009C;
         color: whitesmoke
     }
     
     footer p {
         text-align: center;
+        width: 100%;
     }
-    /*TUTOS*/
+    /*Tutos*/
     
     code {
         border: 1px solid white;
