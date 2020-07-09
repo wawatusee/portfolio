@@ -90,10 +90,11 @@
     }
     /*TUTOS*/
     
-    code {
+    pre {
         border: 1px solid white;
         padding: 3px;
         margin: 10px;
+        width: 50%;
     }
     
     canvas {
