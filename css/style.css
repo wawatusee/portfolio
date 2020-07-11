@@ -4,7 +4,8 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     /*DISPLAY GRID*/
-        /*Couleurs : Fonds de menu et titres :4738C9, Fonds de header et footer :  21177D (klein), Fond de pre : B3A1AA, Ecrits : Footer header : whitesmoke, lignes de séparation blocks : 4738C9*/
+    /*Couleurs : Fonds de menu et titres :4738C9, Fonds de header et footer :  21177D (klein), Fond de pre : B3A1AA, Ecrits : Footer header : whitesmoke, lignes de séparation blocks : 4738C9*/
+    
     .grid-container {
         display: grid;
         grid-template-columns: 2fr repeat(6);
@@ -29,7 +30,7 @@
     menu a {
         color: white;
         background-color: #4738C9;
-		text-decoration: none;
+        text-decoration: none;
     }
     
     menu a:hover {
@@ -70,8 +71,8 @@
         background-color: #555;
         color: white;
     }
-	
-	h2,
+    
+    h2,
     h3,
     h4 {
         background-color: #4738C9;
@@ -99,14 +100,18 @@
     
     pre {
         border: 1px solid white;
-		background-color: #B3A1AA;
+        background-color: #B3A1AA;
         padding: 3px;
         margin: 10px;
     }
-	    code {
+    
+    code {
         font-size: 1.4em;
     }
     
     canvas {
         border: solid 1px orange;
     }
+    /*LIENS*/
+    
+    .liensCours {}
