@@ -4,7 +4,7 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     /*DISPLAY GRID*/
-    
+        /*Couleurs : Fonds de menu et titres :4738C9, Fonds de header et footer :  21177D (klein), Fond de pre : B3A1AA, Ecrits : Footer header : whitesmoke, lignes de séparation blocks : 4738C9*/
     .grid-container {
         display: grid;
         grid-template-columns: 2fr repeat(6);
@@ -16,7 +16,7 @@
     header {
         grid-column: 1/12;
         grid-row: auto;
-        background-color: #00009C;
+        background-color: #21177D;
         color: whitesmoke;
     }
     /*MAIN MENU*/
@@ -28,11 +28,12 @@
     
     menu a {
         color: white;
-        background-color: #00009C;
+        background-color: #4738C9;
+		text-decoration: none;
     }
     
     menu a:hover {
-        color: #00009C;
+        color: #4738C9;
         background-color: #9C9A9C;
     }
     /*CONTENT*/
@@ -46,7 +47,7 @@
     
     .menuSecondaire {
         grid: 3 2 4 3;
-        border-right: solid #00009C;
+        border-right: solid #4738C9;
         padding-right: 5px;
     }
     
@@ -55,7 +56,7 @@
         margin: 0;
         padding: 0;
         width: 200px;
-        background-color: #08084F;
+        background-color: #4738C9;
     }
     
     .menuSecondaire li a {
@@ -69,11 +70,17 @@
         background-color: #555;
         color: white;
     }
+	
+	h2,
+    h3,
+    h4 {
+        background-color: #4738C9;
+    }
     /*ASIDE*/
     
     aside {
         grid: 3 11 4 13;
-        border-left: solid #00009C;
+        border-left: solid #4738C9;
         padding-left: 10px;
     }
     /*FOOTER*/
@@ -81,7 +88,7 @@
     footer {
         grid-column: 1/ span 11;
         grid-row: 4/auto;
-        background-color: #00009C;
+        background-color: #21177D;
         color: whitesmoke
     }
     
@@ -92,9 +99,12 @@
     
     pre {
         border: 1px solid white;
+		background-color: #B3A1AA;
         padding: 3px;
         margin: 10px;
-        width: 50%;
+    }
+	    code {
+        font-size: 1.4em;
     }
     
     canvas {
