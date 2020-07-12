@@ -60,7 +60,8 @@
                         </ul>
                     </div>
                     <div class="cours">
-                            <a href="https://youtu.be/aUe39XtWXu8">Cours du 8/4/2020 AM - Pierre - Conception de bases de données</a>
+                        
+                            <a class="coursvideo" href="https://youtu.be/aUe39XtWXu8">Cours du 8/4/2020 AM - Pierre - Conception de bases de données</a>
                             <ul>
                                 <li>
                                     <a href="http://partage.webdev-cf2m.be/WEB/DB-SQL/ex1_bibliotheque/Exercice1.pdf">pdf-Exercice1</a>

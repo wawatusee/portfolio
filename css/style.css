@@ -41,8 +41,6 @@
     
     main {
         grid-column: 3/10;
-        border-bottom: solid;
-        border-top: solid;
     }
     /*Titre rubrique et menu*/
     
@@ -114,4 +112,42 @@
     }
     /*LIENS*/
     
-    .liensCours {}
+    .liensCours {
+        display: flex;
+        justify-content: space-between;
+        color: whitesmoke;
+    }
+    
+    .liensCours {
+        color: whitesmoke;
+        padding-top: 20px;
+    }
+    
+    .coursvideo {
+        background-color: whitesmoke;
+    }
+    
+    .cours {
+        border: solid 1px whitesmoke;
+        -moz-border-radius: 10px 0;
+        -webkit-border-radius: 10px 0;
+        border-radius: 10px 0;
+    }
+    
+    .cours ul {
+        background-color: #C9AD00;
+        list-style-type: none;
+    }
+    
+    .cours ul a {
+        color: whitesmoke;
+    }
+    
+    .cours ul a:hover {
+        color: #4838C9;
+    }
+    /*GALLERY*/
+    
+    .gallery {
+        display: flex;
+    }

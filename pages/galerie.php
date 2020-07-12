@@ -35,6 +35,21 @@
                 Fichier:Tomato.svg|Une légende.
                 </gallery>
                 <p>Ou le modèle flex de try it yourself mais avec une interface en JSON comme ci-dessus, plutot que  écrit direct depuis le php : <a href="https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_image_grid">Galerie Flex</a></p>
+                <div class="gallery">
+                    <img src="images/galeries/bxl-cloudyroof.jpg" alt="cloudyroof">
+                    <img src="images/galeries/bxl-cloudy-roof-nb.jpg" alt="cloudy-roof-nb">
+                    <img src="images/galeries/city-contrejour.jpg" alt="city-contrejour">
+                    <img src="images/galeries/city-schaerbeek-01.jpg" alt="city-schaerbeek-01">
+                    <img src="images/galeries/city-schaerbeek-02.jpg" alt="city-schaerbeek-02">
+                    <img src="images/galeries/city-schaerbeek-03.jpg" alt="city-schaerbeek-03">
+                    <img src="images/galeries/city-schaerbeek-coucher-soleil.jpg" alt="city-schaerbeek-coucher-soleil">
+                    <img src="images/galeries/financial-tour-nuit.jpg" alt="financial-tour-nuit">
+                    <img src="images/galeries/ghotam.jpg" alt="ghotam">
+                    <img src="images/galeries/quartierAffairecontrejournb.jpg" alt="quartierAffairecontrejournb">
+                    <img src="images/galeries/quartieraffaire-nb.jpg" alt="quartieraffaire-nb">
+                    <img src="images/galeries/saintemarie.jpg" alt="saintemarie">
+                    <img src="images/galeries/saintemarie-nb.jpg" alt="saintemarie-nb">
+                </div>
             </main>
             <!-- ASIDE -->
             <aside>
