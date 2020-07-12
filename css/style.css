@@ -88,7 +88,7 @@
         grid-column: 1/ span 11;
         grid-row: 4/auto;
         background-color: #21177D;
-        color: whitesmoke
+        color: whitesmoke;
     }
     
     footer p {
@@ -150,4 +150,5 @@
     
     .gallery {
         display: flex;
+        flex-wrap: wrap;
     }

@@ -23,7 +23,31 @@
                 <?php include "pages/menu-$page.php" ?>
             </div>
             <main>
-                <p>Un formulaire de contact avec admin</p>
+                <div>
+                    <h1>Me Contacter</h1>
+                    <form method="post">
+                        <div>
+                            <div>
+                                <input type="text" name="txtNom"  placeholder="VOTRE NOM *" value="" />
+                            </div>
+                            <div>
+                                <input type="text" name="txtPrenom"  placeholder="VOTRE PRENOM *" value="" />
+                            </div>
+                            <div>
+                                <input type="text" name="txtMail"  placeholder="VOTRE MAIL *" value="" />
+                            </div>
+                            <div>
+                                <input type="text" name="txtSujet"  placeholder="SUJET *" value="" />
+                            </div>
+                        </div>
+                        <div>
+                            <textarea name="txtMsg"  placeholder="VOTRE MESSAGE ... *" rows="9" cols="33"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">ENVOYER </button>
+                        </div>
+                    </form>
+                </div>
             </main>
             <!-- ASIDE -->
             <aside>
@@ -34,7 +58,6 @@
                  <?php include "files/footer.php"?>
             </footer>
     </div>
-
 </body>
 
 </html>
