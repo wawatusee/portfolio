@@ -23,7 +23,6 @@
                 <?php include "pages/menu-$page.php" ?>
             </div>
             <main>
-                <p>2 tutos sont demandés, dois-je placer chaque tuto dans un répertoire particulier? Je bloque pas pour l'instant, j'attend de voir les contraintes de chaque tuto selon son contenu.</p>
                 <section >
                     <h2 id="tutoriel1">Tutoriel1-CANVAS</h2>
                     <ol>
@@ -34,8 +33,8 @@
                                 <li>Div html</li>
                                 <li>id et Script JS</li>
                             </ul>
-                        </li>
-                        <li>Dessiner?
+                        
+                        <li>Dessiner?</li>
                     </ol>
                     <h3>1-Qu'est ce que CANVAS?</h3>
                     <p>Dans le cadre de pages html, l'élément &lsaquo;canvas&rsaquo;est utilisé pour dessiner des formes à la volée grace à java-script.</p>
@@ -139,6 +138,33 @@
                     <P>PS :  Différents contextes et méthode peuvent être utilisés dans l'espace Canvas, pour les dessins en 2 dilensions, celui que nous venons d'employer : <br>
                     2D, pour les représentation en 3 dimensions : webgl et webgl2 et la reproduction d'image bitmab :ImageBitmapRendering. <br>
                     </P>
+                </section>
+                <hr>
+                <section>
+                    <h2 id="tutoriel2">Tutoriel2-LES SPRITES</h2>
+                    <ol>
+                        <li>Qu'est ce qu'un Sprite?</li>
+                        <li>A quoi sert un Sprite?</li>
+                        <li>Comment le mettre en place, l'utiliser?
+                            <ul>
+                                <li>Div html</li>
+                                <li>id et Script JS</li>
+                            </ul>
+                        </li>
+                        <li>Dessiner?</li>
+                    </ol>
+
+                    <h3>1-Qu'est ce qu'un sprite</h3>
+                    <blockquote>
+                        <p> <b>SPRITE</b> : Il s'agit à l'origine d'une créature du petit peuple que l'on traduit en général par lutin. Le terme vient du latin spiritus (esprit), et se trouve aussi sous la forme spright et spriggan.<br>
+                            <small><a href="https://fr.wikipedia.org/wiki/Sprite" target="_blank" rel="noopener noreferrer">Wiki-sprite </a><cite>https://fr.wikipedia.org/wiki/Sprite</cite></small>
+                        </p>
+                    </blockquote>
+                    <p>Le Sprite dont je vais vous donner le mode d'emploi, est plus une enveloppe que le lutin qui l'habite.</p>
+                    <p>Une image <i> sprite</i> est une série d'images contenue dans une seule. <br>
+                    <h3>2-A quoi sert un Sprite</h3>
+                     Une page web contenant de nombreuses images va solliciter plusieurs appels à des serveurs pour charger toutes les images nécessaires alors que en utilisant une seule image sprite composée de l'ensemble des images, nous réduisons le nombre de requètes et sauvons ainsi de la bande passante.</p>
+                    <img src="" alt="exemple de sprite">
                 </section>
             </main>
             <!-- ASIDE -->
