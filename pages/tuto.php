@@ -168,8 +168,8 @@
                     <h3>3-Mettre en place un sprite</h3>
                     <h4>Créer l'image</h4>
                     <p>Beaucoup moyens d'édition d'images peuvent être utilisés pour créer un Sprite. L'exemple suivant concentrera sur un Sprite les divers logos de réseaux sociaux que j'utiliserai comme liens vers les dits réseaux sociaux. Pour créer ce Sprite, j'ai trouvé un site dédié sur lequel j'ai téléchargé chaque logo, <a href="https://www.pngegg.com/fr" target="_blank" rel="noopener noreferrer"><img src="images/tuto-sprite/logo_png-egg.png" alt="logo pngegg"> pngegg.com</a>. </p>
-                    <p>Une fois tous les logos réunis,  </p>
-                    <p></p>
+                    <p>Une fois tous les logos réunis dans un dossier, nous allons les réunir sur un seul fichier. </p>
+                    <p>Milles méthodes, des dizaines de sites, tous les moyens sont bons pour réunir toutes vos images en un seul sprite, j'ai trouvé celui-ci qui fait le job : <a href="https://codeshack.io/images-sprite-sheet-generator/" target="_blank" rel="noopener noreferrer">CodeShack</a>. Quel que soit le moyen choisi, nous devons avoir le focus sur les éléments qui nous permettront d'en faire un bon usage.</p>
                 </section>
             </main>
             <!-- ASIDE -->
