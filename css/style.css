@@ -94,7 +94,7 @@
     footer p {
         text-align: center;
     }
-    /*TUTOS*/
+    /*TUTOS canvas et sprite*/
     
     pre {
         border: 1px solid white;
@@ -110,7 +110,7 @@
     canvas {
         border: solid 1px orange;
     }
-    /*LIENS*/
+    /*LIENS divers formes de liens*/
     
     .liensCours {
         display: flex;

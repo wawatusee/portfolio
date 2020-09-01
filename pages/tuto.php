@@ -147,8 +147,8 @@
                         <li>A quoi sert un Sprite?</li>
                         <li>Comment le mettre en place, l'utiliser?
                             <ul>
-                                <li>Div html</li>
-                                <li>id et Script JS</li>
+                                <li>Créer le sprite</li>
+                                <li>Mise en place html id et CSS</li>
                             </ul>
                         </li>
                         <li>Dessiner?</li>
@@ -165,6 +165,11 @@
                     <h3>2-A quoi sert un Sprite</h3>
                      Une page web contenant de nombreuses images va solliciter plusieurs appels à des serveurs pour charger toutes les images nécessaires alors que en utilisant une seule image sprite composée de l'ensemble des images, nous réduisons le nombre de requètes et sauvons ainsi de la bande passante.</p>
                     <img src="" alt="exemple de sprite">
+                    <h3>3-Mettre en place un sprite</h3>
+                    <h4>Créer l'image</h4>
+                    <p>Beaucoup moyens d'édition d'images peuvent être utilisés pour créer un Sprite. L'exemple suivant concentrera sur un Sprite les divers logos de réseaux sociaux que j'utiliserai comme liens vers les dits réseaux sociaux. Pour créer ce Sprite, j'ai trouvé un site dédié sur lequel j'ai téléchargé chaque logo, <a href="https://www.pngegg.com/fr" target="_blank" rel="noopener noreferrer"><img src="images/tuto-sprite/logo_png-egg.png" alt="logo pngegg"> pngegg.com</a>. </p>
+                    <p>Une fois tous les logos réunis,  </p>
+                    <p></p>
                 </section>
             </main>
             <!-- ASIDE -->
