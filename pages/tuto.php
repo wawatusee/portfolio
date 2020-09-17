@@ -27,8 +27,8 @@
                     <article>
                         <h2 id="tutoriel1">Tutoriel1-CANVAS</h2>
                         <ol>
-                            <li>Qu'est ce que CANVAS?</li>
-                            <li>A quoi ça sert?</li>
+                            <li>Qu'est-ce que CANVAS?</li>
+                            <li>À quoi ça sert?</li>
                             <li>Comment le mettre en place, l'utiliser?
                                 <ul>
                                     <li>Div html</li>
@@ -37,15 +37,15 @@
                             
                             <li>Dessiner?</li>
                         </ol>
-                        <h3>1-Qu'est ce que CANVAS?</h3>
-                        <p>Dans le cadre de pages html, l'élément &lsaquo;canvas&rsaquo;est utilisé pour dessiner des formes à la volée grace à java-script.</p>
+                        <h3>1-Qu'est-ce que CANVAS?</h3>
+                        <p>Dans le cadre de pages html, l'élément &lsaquo;canvas&rsaquo; est utilisé pour dessiner des formes à la volée grâce à java-script.</p>
                         <h3>2-A quoi ça sert?</h3>
-                        <p>La balise html &lsaquo;canvas&rsaquo; est un conteneur pour des formes ou dessins, le java-script permet d'y importer des formes pleines,ou juste leurs contours ou de les dessiner point à point.</p>
+                        <p>La balise html &lsaquo;canvas&rsaquo; est un conteneur pour des formes ou dessins, le java-script permet d'y importer des formes pleines, ou juste leurs contours ou de les dessiner point à point.</p>
                         <h3>3-Comment le mettre en place?</h3>
                         <h4>Div html</h4>
                         <p>Le premier élément à mettre en place est votre balise &lsaquo;canvas&rsaquo;<br>
                         Créons dans le corps de notre page html une balise ‹canvas›, balise ouvrante et fermante. <br>
-                        donnons à cette balise un attribut largeur(width="200"), une propriété hauteur(height="200") ainsi qu'un attribut id. <br>
+                        Donnons à cette balise un attribut largeur (width="200"), une propriété hauteur (height="200") ainsi qu'un attribut id. <br>
                         </p>
                         <pre><code>&lsaquo;canvas id="espaceCanvas" width="200" height="200"&rsaquo;&lsaquo;/canvas&rsaquo;</code></pre>
                         <div id="comment">Le carré ci-dessous est votre balise canvas : <br>
@@ -54,8 +54,8 @@
                             <canvas width="200" height="200"></canvas>
                         </div>
                         <h4>id et Script JS</h4>
-                        <p>Java-script est nécessaire pour dessiner dans votre espace Canvas, <br>
-                        Grace à l'id  ciblons avec java-script notre espace Canvas.</p>
+                        <p>Java-script est nécessaire pour dessiner dans votre espace canvas, <br>
+                        Grâce à l'id  ciblons avec java-script notre espace canvas.</p>
                         <pre><code> var monEspaceCanvas = document.getElementById('espaceCanvas');</code></pre>
                         <p>Nous agirons dorénavant sur notre espace de dessin en utilisant la variable espaceCanvas. <br>
                         Pour dessiner nous allons vérifier si notre balise canvas est capable de recevoir de la 2D <i>if (monEspaceCanvas.getContext)</i> et une fois cette condition vérifiée, définir notre espace comme un espace "2D" <i>var monDessin = monEspaceCanvas.getContext('2d');</i></p>
@@ -68,7 +68,7 @@
                             </code>
                         </pre>
                         <h4>4-Dessiner</h4>
-                        <p>Votre feuille vierge est prète à recevoir votre oeuvre : prenons notre crayon. <br>
+                        <p>Votre feuille vierge est prête à recevoir votre oeuvre : prenons notre crayon. <br>
                         Pour commencer à dessiner utilisons la méthode beginPath();</p>
                         <pre>
                             <code>
@@ -79,8 +79,8 @@
                             }
                             </code>
                         </pre>
-                        <p>désignons les coordonnées du point de départ de notre dessin avec la méthode moveTo(x, y) qui prend 2 arguments(ici x et y) qui correspondent aux coordonnées de notre premier point dans notre espace canvas.
-                        Par exemple monDessin.moveTo(25, 25), démarrera notre dessin à 25pixels du bord gauche et à 25pixels du haut de notre surface de dessin.</p>
+                        <p>Désignons les coordonnées du point de départ de notre dessin avec la méthode moveTo(x, y) qui prend 2 arguments (ici x et y) qui correspondent aux coordonnées de notre premier point dans notre espace canvas.
+                        Par exemple monDessin.moveTo(25, 25) démarrera notre dessin à 25 pixels du bord gauche et à 25 pixels du haut de notre surface de dessin.</p>
                         <pre>
                             <code>
                             var monEspaceCanvas = document.getElementById('espaceCanvas');
@@ -92,7 +92,7 @@
                             }
                             </code>
                         </pre>
-                        <p>Et enfin pour que qu'une ligne soit visible désignons les coordonnées d'un autre point qui permettra de créér notre première ligne avec la méthode lineTo(x,y).</p>
+                        <p>Et enfin pour qu'une ligne soit visible désignons les coordonnées d'un autre point qui permettra de créer notre première ligne avec la méthode lineTo(x,y).</p>
                         <pre>
                             <code>
                             var monEspaceCanvas = document.getElementById('espaceCanvas');
@@ -107,9 +107,9 @@
                             </code>
                         </pre>
                         <p>Nous dessinons  ainsi ligne à ligne comme si vous ne lachions jamais notre crayon. <br>
-                            Quand toutes le lignes de notre dessin ont été écrites, nous cloturons notre dessin avec la méthode closePath(); <br>
-                            Deux autres méthodes vont désigner notre visuel, la méthode stroke(); qui fera apparaitre une ligne passant par chacun des points définis avant dans le code et la méthode fill(); qui remplira notre forme.
-                            Ou la méthode fill() qui remplira notre forme. Le code suivant produira un triangle rempli et un triangle fait de segment de droite.<br>
+                            Quand toutes les lignes de notre dessin ont été écrites, nous clôturons notre dessin avec la méthode closePath(); <br>
+                            Deux autres méthodes vont désigner notre visuel, la méthode stroke() qui fera apparaitre une ligne passant par chacun des points définis avant dans le code et la méthode fill() qui remplira notre forme.
+                             Le code suivant produira un triangle rempli et un triangle fait de segments de droites.<br>
                         </p>
                         <pre>
                             <code>
@@ -144,7 +144,7 @@
                     <article>
                         <h2 id="tutoriel2">Tutoriel2-LES SPRITES</h2>
                         <ol>
-                            <li>Qu'est ce qu'un Sprite?</li>
+                            <li>Qu'est-ce qu'un Sprite?</li>
                             <li>A quoi sert un Sprite?</li>
                             <li>Comment le mettre en place, l'utiliser?
                                 <ul>
@@ -155,19 +155,19 @@
                             <li>Dessiner?</li>
                         </ol>
 
-                        <h3>1-Qu'est ce qu'un sprite</h3>
+                        <h3>1-Qu'est-ce qu'un Sprite</h3>
                         <blockquote>
                             <p> <b>SPRITE</b> : Il s'agit à l'origine d'une créature du petit peuple que l'on traduit en général par lutin. Le terme vient du latin spiritus (esprit), et se trouve aussi sous la forme spright et spriggan.<br>
                                 <small><a href="https://fr.wikipedia.org/wiki/Sprite" target="_blank" rel="noopener noreferrer">Wiki-sprite </a><cite>https://fr.wikipedia.org/wiki/Sprite</cite></small>
                             </p>
                         </blockquote>
-                        <p>Le Sprite dont je vais vous donner le mode d'emploi, est plus une enveloppe que le lutin qui l'habite.</p>
-                        <p>Une image <i> sprite</i> est une série d'images contenue dans une seule. <br>
-                        <h3>2-A quoi sert un Sprite</h3>
-                        Une page web contenant de nombreuses images va solliciter plusieurs appels à des serveurs pour charger toutes les images nécessaires alors que en utilisant une seule image sprite composée de l'ensemble des images, nous réduisons le nombre de requètes et sauvons ainsi de la bande passante.</p>
+                        <p>Le Sprite dont je vais vous donner le mode d'emploi est plus une enveloppe que le lutin qui l'habite.</p>
+                        <p>Une image <i> sprite</i> est une série d'images contenues dans une seule. <br>
+                        <h3>2-À quoi sert un Sprite</h3>
+                        Une page web contenant de nombreuses images va solliciter plusieurs appels à des serveurs pour charger toutes les images nécessaires alors qu'en utilisant une seule image sprite composée de l'ensemble des images, nous réduisons le nombre de requêtes et sauvons ainsi de la bande passante.</p>
                         <p>Aussi au lieu d'utiliser cette série d'images : <img src="images/tuto-sprite/twitter.png" alt="">|<img src="images/tuto-sprite/whatsapp.png" alt="">|<img src="images/tuto-sprite/deezer.png" alt="">|<img src="images/tuto-sprite/instagram.png" alt="">|<img src="images/tuto-sprite/deezer.png" alt="">|<img src="images/tuto-sprite/deezer.png" alt="">|<img src="images/tuto-sprite/deezer.png" alt="">|<br>
-                        <img src="images/tuto-sprite/spritesheet.png" alt="exemple de sprite"></p>
-                        <h3>3-Mettre en place un sprite</h3>
+                        <p>Utilisons cette unique image : </p><img src="images/tuto-sprite/spritesheet.png" alt="exemple de sprite"></p>
+                        <h3>3-Mettre en place un Sprite</h3>
                         <h4>Créer l'image</h4>
                         <p>Beaucoup moyens d'édition d'images peuvent être utilisés pour créer un Sprite. L'exemple suivant concentrera sur un Sprite les divers logos de réseaux sociaux que j'utiliserai comme liens vers les dits réseaux sociaux. Pour créer ce Sprite, j'ai trouvé un site dédié sur lequel j'ai téléchargé chaque logo, <a href="https://www.pngegg.com/fr" target="_blank" rel="noopener noreferrer"><img src="images/tuto-sprite/logo_png-egg.png" alt="logo pngegg"> pngegg.com</a>. </p>
                         <p>Une fois tous les logos réunis dans un dossier, nous allons les réunir sur un seul fichier. </p>

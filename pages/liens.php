@@ -23,9 +23,9 @@
                 <?php include "pages/menu-$page.php" ?>
             </div>
             <main>
-                <p>Liens vers les cours donnés, au CF2M depuis le début de l'année à la classe de WEB.</p>
-                <p>Rangées par matières et par cours.</p>
-                <p>Voici les support de cours, triées par dates (videos, pdf, repertoire Git-hub, etc)</p>
+                <p>Liens vers les cours donnés au CF2M depuis le début de l'année à la classe de WEB.</p>
+                <p>Rangés par matières et par cours.</p>
+                <p>Voici les supports de cours, triés par dates (vidéos, pdf, répertoire Git-hub, etc.)</p>
                 <div class="liensCours">
                     <div class="cours">
                         <a href="https://youtu.be/m7Bfezl90rA">Cours Conception Bases de données du 02-04-2020</a>

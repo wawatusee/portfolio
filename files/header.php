@@ -1,1 +1,1 @@
-<p>WEB-portfolio kieran labarrere-<?=$page?></p>
+<p>WEB-portfolio Kieran Labarrère-<?=$page?></p>
